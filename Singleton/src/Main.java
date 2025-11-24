@@ -21,5 +21,18 @@ public class Main {
             System.out.println("Bikes are not the same!");
         }
 
+
+        // TEST USING MULTITHREADING
+        System.out.println("------------Singleton Design Pattern using Lazy Way Using  Multiple Thread---------");
+        Runnable task = () -> {
+            Bus bus = Bus.getBus();
+            System.out.println(Thread.currentThread().getName() + "------>" + bus);
+        };
+
+        // Creating multiple Thread
+        Thread thread1 = new Thread(task);
+        Thread thread2 = new Thread(task);
+        thread1.start();
+        thread2.start();
     }
 }
