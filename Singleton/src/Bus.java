@@ -1,6 +1,11 @@
 public enum Bus {
 
-    INSTANCE
+    INSTANCE;
+
+    public void run() {
+        System.out.println("Bus is running...");
+    }
+
 //    private static volatile Bus bus;
 
 //    private Bus() {

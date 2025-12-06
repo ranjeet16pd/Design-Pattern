@@ -46,6 +46,7 @@ public class Main {
 
         Bus bus1 = Bus.INSTANCE;
         System.out.println("Car 1 Hash code is " + bus1.hashCode());
+        bus1.run();
 
         // Now making the new instance of class using reflection API
         Constructor<Bus> constructor = Bus.class.getDeclaredConstructor();
