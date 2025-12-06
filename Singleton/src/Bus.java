@@ -3,6 +3,9 @@ public class Bus {
     private static volatile Bus bus;
 
     private Bus() {
+        if (bus != null) {
+            throw new IllegalStateException("Bus is already initialized and you are trying to break singleton pattern");
+        }
     }
 
     public static Bus getBus() {

@@ -48,9 +48,9 @@ public class Main {
         System.out.println("Car 1 Hash code is " + bus1.hashCode());
 
         // Now making the new instance of class using reflection API
-        Constructor<Car> constructor = Car.class.getDeclaredConstructor();
+        Constructor<Bus> constructor = Bus.class.getDeclaredConstructor();
         constructor.setAccessible(true);
-        Car bus2 = constructor.newInstance();
+        Bus bus2 = constructor.newInstance();
         System.out.println("Car 2 Hash code is " + bus2.hashCode());
 
 
