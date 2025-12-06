@@ -1,21 +1,22 @@
-public class Bus {
+public enum Bus {
 
-    private static volatile Bus bus;
+    INSTANCE
+//    private static volatile Bus bus;
 
-    private Bus() {
-        if (bus != null) {
-            throw new IllegalStateException("Bus is already initialized and you are trying to break singleton pattern");
-        }
-    }
-
-    public static Bus getBus() {
-        if (bus == null) {                  // 1st check
-            synchronized (Bus.class) {
-                if (bus == null) {          // 2nd check (important!)
-                    bus = new Bus();
-                }
-            }
-        }
-        return bus;
-    }
-}
+//    private Bus() {
+//        if (bus != null) {
+//            throw new IllegalStateException("Bus is already initialized and you are trying to break singleton pattern");
+//        }
+//    }
+//
+//    public static Bus getBus() {
+//        if (bus == null) {                  // 1st check
+//            synchronized (Bus.class) {
+//                if (bus == null) {          // 2nd check (important!)
+//                    bus = new Bus();
+//                }
+//            }
+//        }
+//        return bus;
+//    }
+};

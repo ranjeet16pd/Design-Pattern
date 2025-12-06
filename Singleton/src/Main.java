@@ -44,7 +44,7 @@ public class Main {
         Ways 3 to break singleton pattern
          */
 
-        Bus bus1 = Bus.getBus();
+        Bus bus1 = Bus.INSTANCE;
         System.out.println("Car 1 Hash code is " + bus1.hashCode());
 
         // Now making the new instance of class using reflection API
