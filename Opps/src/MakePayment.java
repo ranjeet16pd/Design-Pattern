@@ -10,8 +10,10 @@ public class MakePayment {
         PaymentService paymentService = new PaymentService();
         paymentService.addPaymentMethod("ranjeetDC", new DebitCard("1234","ranjeetDc"));
         paymentService.addPaymentMethod("ranjeetCC", new CreditCard("5678","ranjeetCc"));
+        paymentService.addPaymentMethod("ranjeetWallet", new Wallet());
 
-        paymentService.makePayment("ranjeetDC");
+
+        paymentService.makePayment("ranjeetWallet");
 
 
     }
