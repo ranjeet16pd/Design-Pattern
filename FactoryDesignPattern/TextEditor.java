@@ -2,13 +2,18 @@ public class TextEditor {
 
     private String content;
 
-    public TextEditor(String content) {
+    public EditorMemento save() {
+        return new EditorMemento(content);
+    }
+
+    public void restore(EditorMemento memento) {
+        this.content = memento.getContent();
+    }
+
+    public void write(String content) {
         this.content = content;
     }
 
-    public void setContent(String content) {
-        this.content = content;
-    }
     public String getContent() {
         return content;
     }
