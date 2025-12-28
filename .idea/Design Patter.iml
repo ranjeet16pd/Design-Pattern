@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/LiskovPrinciple" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Opps" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BehaviouralDesignPattern/MementoPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BehaviouralDesignPattern/ObserverPattern" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
