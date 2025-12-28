@@ -2,9 +2,6 @@ package WithoutObserverPatttern;
 
 
 class DisplayDevices {
-
-    private float temperature;
-
     public void showTempreture(float temperature) {
         System.out.println("Current temperature: " + temperature + "\u00B0");
     }
