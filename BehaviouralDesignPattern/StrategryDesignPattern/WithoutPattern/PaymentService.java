@@ -19,7 +19,7 @@ public class PaymentService {
 
     public  static void main(String[] args) {
         PaymentService paymentService = new PaymentService();
-        paymentService.processPayments("U");
+        paymentService.processPayments("Cash");
     }
 
 
