@@ -10,6 +10,7 @@
       <sourceFolder url="file://$MODULE_DIR$/BehaviouralDesignPattern/ObserverPattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BehaviouralDesignPattern/StrategryDesignPattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BehaviouralDesignPattern/CommandPattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BehaviouralDesignPattern/Cor(code of Responsibility)" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
