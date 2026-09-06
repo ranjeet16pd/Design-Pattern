@@ -115,7 +115,7 @@ public class StretegiesDesingMain {
         Robot robot1= new CompaniounRobot(new NormalWalk(),new NormalTalk(),new NonFlyRobot());
         robot1.walk();
         robot1.talk();
-        robot1.fly();;
+        robot1.fly();
 
     }
 }
