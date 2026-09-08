@@ -1,4 +1,4 @@
-
+package Stretegies;
 
 
 //stretegies

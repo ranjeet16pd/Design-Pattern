@@ -1,3 +1,5 @@
+package Stretegies;
+
 //strategies : 1
 interface WalkableRobot {
     void walk();
@@ -15,7 +17,7 @@ class NormalWalk implements WalkableRobot {
 class NoWalk implements WalkableRobot {
     @Override
     public void walk() {
-        System.out.println("No Walk Robot");
+        System.out.println("No Walk Stretegies.Robot");
     }
 }
 
@@ -28,7 +30,7 @@ interface FlyableRobot {
 class NonFlyRobot implements FlyableRobot {
     @Override
     public void fly() {
-        System.out.println("This Robot is not able to fly");
+        System.out.println("This Stretegies.Robot is not able to fly");
     }
 }
 
@@ -61,7 +63,7 @@ class NoTalk implements TalkableRobot {
 }
 
 
-// Cliet Robot
+// Cliet Stretegies.Robot
 abstract class Robot {
     private WalkableRobot walkableRobotBehaviour;
     private TalkableRobot talkableRobotBehaviour;
@@ -95,7 +97,7 @@ class CompaniounRobot extends Robot{
     }
 
     public void projection(){
-        System.out.println("Displaying friendly companion Robot");
+        System.out.println("Displaying friendly companion Stretegies.Robot");
     }
 }
 
@@ -105,7 +107,7 @@ class WorkerRobot extends Robot{
     }
 
     public void projection(){
-        System.out.println("Displaying friendly  worker Robot");
+        System.out.println("Displaying friendly  worker Stretegies.Robot");
     }
 }
 
